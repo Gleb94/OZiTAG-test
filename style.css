@@ -1,0 +1,37 @@
+.content { 
+    display: none; 
+}
+
+.content::after {
+    display: block; 
+}
+
+form {
+    display: inline-block;
+    background-color: rgba(180,180,180,.8);
+    border: 1px solid rgba(155,155,155,.6);
+}
+
+.intLink{
+    cursor: pointer;
+}
+
+#toolBar1 select { font-size:10px; background-color: #eff;}
+
+#textBox {
+    min-width: 500px;
+    height: 300px;
+    border: 1px solid rgba(155,155,155,.6);
+    padding: 12px;
+    overflow: scroll;
+    background-color: #eff;
+}
+
+#textBox #sourceText {
+    padding: 0;
+    margin: 0;
+    max-width: 800px;
+    min-height: 200px;
+}
+
+#switchBox, label, #btn { cursor: pointer; }
