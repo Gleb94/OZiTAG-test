@@ -9,12 +9,20 @@
 <body>
     <form name="compForm" method="post" onsubmit="if(validateMode()){this.myDoc.value=oDoc.innerHTML;return true;}return false;">
         <div>
+            <h2>Тендер в роли закажчика</h2>
             <select onchange="formatDoc('formatblock',this[this.selectedIndex].value);this.selectedIndex=0;">
                 <option value="10">[А] Продукция сельского хозяйства, рыбоводства и и рыбаловства</option>
-                <option value="11">[О] Услугри в области государственного управления </option>
+                <option value="11">[О] Услугри в области государственного управления и оборогы, прежостваленные общесству в целом; услуги по образательному социальному страхованию</option>
             </select>
-            <select onchange="formatDoc('fontname',this[this.selectedIndex].value);this.selectedIndex=0;">
-                <option value="12">[А] Продукция сельского хозяйства, рыбоводства и и рыбаловства</option>
+            <select onchange="formatDoc('formatblock',this[this.selectedIndex].value);this.selectedIndex=0;">
+                <option value="12">[84] Услугри в области государственного управления и оборогы, прежостваленные общесству в целом; услуги по образательному социальному страхованию</option>
+                <option value="13">[84.1] Услугри в области государственного управления обзего характера и сециально -экономической сфере</option>
+                <option value="14">[84.11] Услугри в области государственного управления обзего характера</option>
+                <option value="15">[84.11.11] Услуги в области исполнительной и законодательной деятельности</option>
+                <option value="16">[84.11.11.100] Услуги центральных органов исполнительной и законодательной власти</option>
+                <option value="17">[84.11.11.200] Услуги органов упраления и самоуправления областного теретариального уровня</option>
+                <option value="18">[84.11.11.300] Услуги органов упраления и самоуправления базового теретариального уровня</option>
+                <option value="19">[А] Продукция сельского хозяйства, рыбоводства и и рыбаловства</option>
             </select>
         </div>
     </form>
